@@ -9,8 +9,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.employee.employeecreator.exceptions.NotFoundException;
-
+import io.nology.employeeCreator.exceptions.NotFoundException;
 import jakarta.transaction.Transactional;
 
 @Service
